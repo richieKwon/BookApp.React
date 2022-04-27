@@ -1,0 +1,9 @@
+intall nuget package
+
+Microsofet.EntityFrameworkCore
+Microsofet.EntityFrameworkCore.sqlServer (or sqlite)
+Microsofet.EntityFrameworkCore.Tools
+Microsofet.EntityFrameworkCore.InMemory
+System.Configuration.ConfigurationManager
+Microsofet.Data.sqlclient (or sqliteclient)
+
