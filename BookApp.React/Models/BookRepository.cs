@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
+using Dul.Articles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -84,6 +86,12 @@ namespace BookApp.React.Models
             }
 
             return false;
+        }
+
+        public Task<ArticleSet<Book, int>> GetArticlesAsync<TParentIdentifier>(int pageIndex, int pageSize, string searchField, string searchQuery,
+            string sortOrder, TParentIdentifier parentIdentifier)
+        {
+            throw new NotImplementedException();
         }
     }
 }
