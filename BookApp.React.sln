@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.React", "BookApp.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.DB", "BookApp.DB\BookApp.DB.csproj", "{B7616944-7C8D-4841-BDE7-45EAEE1BB1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookApp.Models", "BookApp.Models\BookApp.Models.csproj", "{44ED2E3F-52AA-42F4-8775-05B80FB2CE87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBook", "TestBook\TestBook.csproj", "{F93954DA-2E84-4D15-BEC1-DDC256894339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{B7616944-7C8D-4841-BDE7-45EAEE1BB1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7616944-7C8D-4841-BDE7-45EAEE1BB1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7616944-7C8D-4841-BDE7-45EAEE1BB1FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44ED2E3F-52AA-42F4-8775-05B80FB2CE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44ED2E3F-52AA-42F4-8775-05B80FB2CE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44ED2E3F-52AA-42F4-8775-05B80FB2CE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44ED2E3F-52AA-42F4-8775-05B80FB2CE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93954DA-2E84-4D15-BEC1-DDC256894339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93954DA-2E84-4D15-BEC1-DDC256894339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93954DA-2E84-4D15-BEC1-DDC256894339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93954DA-2E84-4D15-BEC1-DDC256894339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
