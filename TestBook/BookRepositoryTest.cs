@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using static BookApp.React.Models.BookAppDBContext;
 
 namespace TestBook
 {
@@ -22,7 +23,7 @@ namespace TestBook
         }
         using (var context = new BookAppDBContext(options))
         {
-            Context.Database.EnsureCreated();
+            context.Database.EnsureCreated();
             
             var reoposit
 
